@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voturi Prezentare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .candidate {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .candidate h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .vote-button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: inline-block;
+        }
+        .vote-button:hover {
+            background-color: #ff503e;
+        }
+        .vote-count {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voturi Prezentare</h1>
+
+    <div class="container">
+        <div class="candidate">
+            <h2>Elena Lasconi - Trandafir</h2>
+            <p class="vote-count">Voturi: 14745</p>
+            <button class="vote-button">Votează Buton 1</button>
+        </div>
+
+        <div class="candidate">
+            <h2>Marcel Ciolacu - Brat</h2>
+            <p class="vote-count">Voturi: 3963</p>
+            <button class="vote-button">Votează Buton 2</button>
+        </div>
+
+        <div class="candidate">
+            <h2>George Calinescu - GG</h2>
+            <p class="vote-count">Voturi: 184</p>
+            <button class="vote-button">Votează Buton 3</button>
+        </div>
+    </div>
+</body>
+</html>
